@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jonada.challengerunning">
+
+    <uses-feature android:name="android.hardware.sensor.stepcounter" />
+    <uses-feature android:name="android.hardware.sensor.stepdetector" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true">
+        <activity
+            android:name=".navigationDrawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:label="My Friends"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.AppBarOverlay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Test"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".NewChallengeActivity"
+            android:label="New Challenge"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".AddFriendActivity"
+            android:label="Add Friend"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".FriendsActivity"
+            android:label="My Friends"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".LeaderbordActivity"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".WinnerActivity"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".RunSessionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

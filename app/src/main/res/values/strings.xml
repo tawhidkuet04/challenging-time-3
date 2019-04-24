@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ChallengeRunning</string>
+    <string name="title_activity_home">Map</string>
+    <string name="Distance">Distance</string>
+    <string name="Steps">Steps</string>
+    <string name="Duration">Duration</string>
+    <string name="Speed">Speed</string>
+    <string name="title_activity_statistics">Map</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">register</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="email">email</string>
+    <string name="already_registered">already_registered</string>
+    <string name="back_to_login">back_to_login</string>
+    <string name="nav_header_desc">nav_header_desc</string>
+    <string name="action_settings">action_settings</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="Register">Register</string>
+    <string name="Login">Login</string>
+    <string name="Password">Password</string>
+
+    <string-array name="friends">
+        <item>Select Friend</item>
+        <item>Jonada</item>
+        <item>Nijar</item>
+        <item>Timo</item>
+        <item>Nejdi</item>
+        <item>Ornela</item>
+    </string-array>
+    <string name="title_activity_navigation_drawer">navigationDrawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+</resources>
